@@ -1,4 +1,4 @@
-package org.example.cli.Commands;
+package org.example.cli.DelCommand;
 
 import org.example.cli.Command;
 import org.example.cli.CommandManager;

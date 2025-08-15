@@ -1,6 +1,17 @@
 package org.example.cli;
 
 import org.example.cli.Commands.*;
+import org.example.cli.CreateCommands.CreateDir;
+import org.example.cli.CreateCommands.CreateFile;
+import org.example.cli.DelCommand.DeleteCommand;
+import org.example.cli.DelCommand.DeleteDirCommand;
+import org.example.cli.NaviCommand.CdCommand;
+import org.example.cli.NaviCommand.LsCommand;
+import org.example.cli.NaviCommand.PwdCommand;
+import org.example.cli.UpdateCommand.Append;
+import org.example.cli.UpdateCommand.RenameCommand;
+import org.example.cli.UpdateCommand.ReplaceCommand;
+import org.example.cli.UpdateCommand.WriteCommand;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -25,6 +36,7 @@ public class CommandManager {
         commandMap.put("replace", new ReplaceCommand(this));
         commandMap.put("rename", new RenameCommand(this));
         commandMap.put("append", new Append(this));
+        commandMap.put("write", new WriteCommand(this));
     }
 
     public void executeCommand(String input) {

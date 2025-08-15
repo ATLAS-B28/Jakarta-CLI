@@ -1,4 +1,4 @@
-package org.example.cli.Commands;
+package org.example.cli.UpdateCommand;
 
 import org.example.cli.Command;
 import org.example.cli.CommandManager;
@@ -6,7 +6,6 @@ import org.example.cli.CommandManager;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.StandardCopyOption;
 import java.util.Scanner;
 
 public class RenameCommand implements Command {

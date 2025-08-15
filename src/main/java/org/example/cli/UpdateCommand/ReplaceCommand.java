@@ -1,4 +1,4 @@
-package org.example.cli.Commands;
+package org.example.cli.UpdateCommand;
 
 import org.example.cli.Command;
 import org.example.cli.CommandManager;

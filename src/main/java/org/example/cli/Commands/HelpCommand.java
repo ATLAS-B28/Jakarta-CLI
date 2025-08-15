@@ -18,6 +18,7 @@ public class HelpCommand implements Command {
         System.out.println("replace - Replace a file contents");
         System.out.println("rename - Rename a file or directory");
         System.out.println("append - Append contents to a file");
+        System.out.println("write - Write contents to a file");
     }
 
     @Override

@@ -1,4 +1,4 @@
-package org.example.cli.Commands;
+package org.example.cli.NaviCommand;
 
 import org.example.cli.Command;
 

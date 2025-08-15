@@ -1,14 +1,13 @@
-package org.example.cli.Commands;
+package org.example.cli.NaviCommand;
 
 import org.example.cli.Command;
 import org.example.cli.CommandManager;
 
 import java.nio.file.Path;
-import java.nio.file.Paths;
 
 public class CdCommand implements Command {
 
-    private CommandManager commandManager;
+    private final CommandManager commandManager;
 
     public CdCommand(CommandManager commandManager) {
         this.commandManager = commandManager;

@@ -32,4 +32,5 @@ the command again. I'm spending more time to reduce AIs use and make my skills m
 efficient.
 
 I hope you find this useful and I will continue to improve it in the future.# Jakarta-CLI
-# Jakarta-CLI
+
+

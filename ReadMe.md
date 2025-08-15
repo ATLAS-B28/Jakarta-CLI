@@ -20,6 +20,7 @@ In assistance of the command line interface, you can use the following commands:
 - `rename`: Rename a file or directory in the current directory.
 - `replace`: Replace the contents of a file in the current directory.
 - `append`: Append contents to a file in the current directory.
+- `write`: Write contents to a file in the current directory.
 
 I built this CLI to help me learn Java and to practice my coding skills.
 and also learn to use AI assistance more efficiently. But I did face a lot of
